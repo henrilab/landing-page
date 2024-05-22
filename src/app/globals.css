@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+header {
+  font-family: monospace;
+}
+
+body {
+  background-color: #111;
+  color: #ededed;
+  font-family: monospace;
+}
