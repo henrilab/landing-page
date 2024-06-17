@@ -3,7 +3,7 @@ import "./globals.css";
 
 export const metadata = {
   title: "henrilab.",
-  description: "Software house focada em inovação e startups",
+  description: "Software house focada em tecnologia e inovação",
 };
 
 export default function RootLayout({ children }) {
