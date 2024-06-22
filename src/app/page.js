@@ -3,6 +3,7 @@ import { HomeCover } from "@/components/HomeCover"
 import { About } from "@/components/About";
 import { Footer } from "@/components/Footer";
 import { Services } from "@/components/Services";
+import { Contact } from "@/components/Contact";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <HomeCover/>
       <About/>
       <Services/>
+      <Contact/>
       <Footer/>
     </>
   );

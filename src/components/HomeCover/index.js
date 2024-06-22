@@ -6,7 +6,7 @@ export function HomeCover() {
             <div className="flex justify-center lg:justify-between items-center h-screen">
                 <div>
                     <h1 className="font-bold text-4xl mb-4">Let&apos;s create the <span className="text-pink-500">future</span> today?</h1>
-                    <p className="w-[620px] mb-4">We develop software following the best market practices and always oriented to your business and creative objectives</p>
+                    <p className="w-1/2 md:w-[620px] mb-4">We develop software following the best market practices and always oriented to your business and creative objectives</p>
                 </div>
 
                 <div className="hidden lg:block">
