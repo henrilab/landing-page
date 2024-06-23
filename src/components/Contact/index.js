@@ -29,7 +29,7 @@ export function Contact() {
             return false
         }
 
-        const url = `${process.env.HOST_URL}/api/contact`
+        const url = `${process.env.NEXT_PUBLIC_HOST_URL}/api/contact`
         const data = {
             name,
             email,
@@ -47,8 +47,10 @@ export function Contact() {
               "Content-Type": "application/json",
             },
             body: JSON.stringify(data), 
-          }).then(() => {
-            toast('Email sent', { type: 'success' })
+          }).then(response => {
+            if(response.ok) toast('Email sent', { type: 'success' })
+            else toast('Error to send email', { type:'error'})
+            
             setLoading(false)
             setErrors({})
           }).catch(() => {
@@ -58,7 +60,7 @@ export function Contact() {
     }
 
     return (
-        <section className="bg-white dark:bg-gray-800">
+        <section className="bg-white dark:bg-gray-800" id="contact">
             <div className="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
                 <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">Get in touch</h2>
                 <p className="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">We are here to create your next project, integration, MVP or a new type of spaceship</p>

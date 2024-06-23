@@ -15,7 +15,7 @@ export function Header() {
                         <h1 className="text-xl font-bold">henrilab.</h1>
                     </a>
                     <div className="flex items-center lg:order-2">
-                        <a href="#" className="border border-pink-500 rounded font-bold text-sm px-4 lg:px-5 py-2 mr-2 underline text-pink-500">Lets talk</a>
+                        <a href="#contact" className="border border-pink-500 rounded font-bold text-sm px-4 lg:px-5 py-2 mr-2 underline text-pink-500">Lets talk</a>
                     </div>
                 </div>
             </nav>

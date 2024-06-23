@@ -3,7 +3,6 @@ import nodemailer from 'nodemailer';
 
 export async function POST(req, res) {
     require('dotenv').config()
-    
     const { name, email, company, demand, message } = await req.json();
 
     let transporter = nodemailer.createTransport({
@@ -37,6 +36,7 @@ export async function POST(req, res) {
 
         return NextResponse.json({ message: 'Email sent successfully' }, { status: 200 });
     } catch (error) {
+        console.log("QUAL EH O ERROO", error)
         return NextResponse.json({ error: 'Failed to send email' }, { status: 500 });
     }
 }
