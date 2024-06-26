@@ -40,9 +40,7 @@ export function Contact() {
 
         fetch(url, {
             method: "POST", 
-            mode: "cors",
-            cache: "no-cache",
-            credentials: "same-origin",
+            mode: "no-cors",
             headers: {
               "Content-Type": "application/json",
             },
