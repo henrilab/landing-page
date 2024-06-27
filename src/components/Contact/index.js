@@ -40,9 +40,9 @@ export function Contact() {
 
         fetch(url, {
             method: "POST", 
-            mode: "no-cors",
+            mode: "cors",
             headers: {
-              "Content-Type": "application/json",
+              "Content-Type": "application/json",   
             },
             body: JSON.stringify(data), 
           }).then(response => {
@@ -51,7 +51,8 @@ export function Contact() {
             
             setLoading(false)
             setErrors({})
-          }).catch(() => {
+          }).catch(error => {
+            console.log("Error to send email", error)
             toast('Error to send email', { type:'error'})
             setLoading(false)
           })
