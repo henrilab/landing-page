@@ -1,19 +1,5 @@
-import { Header } from "@/components/Header";
-import { HomeCover } from "@/components/HomeCover"
-import { About } from "@/components/About";
-import { Footer } from "@/components/Footer";
-import { Services } from "@/components/Services";
-import { Contact } from "@/components/Contact";
+import {redirect} from 'next/navigation';
 
 export default function Home() {
-  return (
-    <>
-      <Header/>
-      <HomeCover/>
-      <About/>
-      <Services/>
-      <Contact/>
-      <Footer/>
-    </>
-  );
+  redirect('/pt');
 }

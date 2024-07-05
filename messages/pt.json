@@ -1,0 +1,74 @@
+{
+    "Error": {
+      "description": "<p>Es ist leider ein Problem aufgetreten.</p><p>Du kannst versuchen <retry>diese Seite neu zu laden</retry>.</p>",
+      "title": "Etwas ist schief gelaufen!"
+    },
+    "Navigation": {
+      "lets_talk": "Vamos conversar?" 
+    },
+    "HomeCover": {
+      "cta": "Vamos criar o futuro hoje?",
+      "description": "Nós planejamos, desenvolvemos e entregamos produtos digitais ao redor do mundo 🌎"
+    },
+    "About": {
+    "title": "Nós criamos mais do que software",
+    "description1": "Mais do que engenheiros e designers de produtos, somos criadores. A Henrilab foca em desenvolvimento de produtos digitais de ponta a ponta, da a ideia no papel até o site ou aplicativo estar no ar de fato.",
+    "description2": "Especialistas em SaaS (Software As A Service), podemos te ajudar no desenho do produto, implementação de meios de pagamento, captura de dados para área de Customer Success e muito mais"
+  },
+  "Services": {
+    "title": "Como podemos te ajudar?",
+    "description": "Aqui na Henrilab, trabalhamos com estas três áreas principais:",
+    "ui_ux": {
+      "title": "UI/UX",
+      "description": "Nós planejamos a melhor experiência para o seu cliente, pesquisando e estudando formas de desenhar um produto único, intuitivo e com o branding da sua empresa"
+    },
+    "product_discovery": {
+      "title": "Descoberta de Produto",
+      "description": "Focando em identificar e validar novas ideias de produtos, utilizamos pesquisa de mercado, feedback de clientes e análise competitiva para descobrir oportunidades e definir funcionalidades de produtos que atendam às necessidades dos usuários e impulsionem o crescimento dos negócios."
+    },
+    "software_development": {
+      "title": "Desenvolvimento de Software",
+      "description": "Levantamento de requisitos, documentação do produto, arquitetura, desenvolvimento, testes e implantação com as melhores práticas do mercado e as necessidades de negócios do produto."
+    },
+    "business_development": {
+      "title": "Desenvolvimento de Negócio",
+      "description": "Criação de planos de negócio, desenvolvimento de estratégias baseadas em indicadores sólidos como KPIs, OKRs e o que for necessário para o crescimento da empresa"
+    },
+    "innovation_research": {
+      "title": "Pesquisa de Futuros",
+      "description": "Nossa equipe de Pesquisa de Inovação explora tendências emergentes e tecnologias para impulsionar o crescimento futuro da nossa empresa. Ao realizar estudos e experimentos aprofundados, mantemos-nos à frente, garantindo que nossos produtos permaneçam inovadores, competitivos e alinhados com os avanços mais recentes da indústria."
+    }
+  },
+  "Contact": {
+    "title": "Entre em contato",
+    "description": "Estamos aqui para criar seu próximo projeto, integração, MVP ou um novo tipo de nave espacial",
+    "name_input": "Seu nome",
+    "email_input": "Seu e-mail",
+    "company_input": "Nome da empresa",
+    "demand_input": "Sua demanda ou projeto",
+    "message_input": "Sua mensagem...",
+    "send_button": "Enviar mensagem agora",
+    "loading": "carregando..."
+  },
+  "Footer": {
+    "social": "social",
+    "initiatives": "iniciativas",
+    "copyright": "Todos os direitos reservados.",
+    "science_support": "Apoio à ciência"
+  },
+    "IndexPage": {
+      "description": "A henrilab atua como seu parceiro em tecnologia, criando, planejando e executando projetos utilizando o melhor da engenharia de software e ciência hoje em dia",
+      "title": "Vamos criar o futuro juntos?"
+    },
+    "LocaleLayout": {
+      "title": "Henrilab - Fábrica de software"
+    },
+    "LocaleSwitcher": {
+      "label": "Sprache ändern",
+      "locale": "{locale, select, pt {🇧🇷} en {🇺🇸} other {...}}"
+    },
+    "NotFoundPage": {
+      "description": "Bitte überprüfe die Addressleiste deines Browsers oder verwende die Navigation um zu einer bekannten Seite zu wechseln.",
+      "title": "Seite nicht gefunden"
+    }
+  }
