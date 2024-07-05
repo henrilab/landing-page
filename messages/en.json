@@ -1,0 +1,74 @@
+{
+    "Error": {
+      "description": "<p>We've unfortunately encountered an error.</p><p>You can try to <retry>reload the page</retry> you were visiting.</p>",
+      "title": "Something went wrong!"
+    },
+    "Navigation": {
+      "lets_talk": "Lets talk?" 
+    },
+    "HomeCover": {
+      "cta": "Lets create the future today?",
+      "description": "We plan, develop and delivery digital business around the world 🌎"
+    },
+    "About": {
+      "title": "We create more than software",
+      "description1": "More than engineers and product designers, we are creators. Henrilab focuses on the development of digital products from end to end, from the idea on paper until the website or application is actually live.",
+      "description2": "Specialists in SaaS (Software As A Service), we can help you with product design, implementation of payment methods, data capture for the Customer Success area and much more"
+    },
+    "Services": {
+      "title": "How can we help you?",
+      "description": "Here at Henrilab we work with this three main areas:",
+      "ui_ux": {
+        "title": "UI/UX",
+        "description": "We plan the best experience for your customer, researching and studying ways to design a unique, intuitive product with your company's branding"
+      },
+      "product_discovery": {
+        "title": "Product Discovery",
+        "description": "Focusing on identifying and validating new product ideas, we use market research, customer feedback, and competitive analysis to uncover opportunities and define product features that meet user needs and drive business growth."
+      },
+      "software_development": {
+        "title": "Software development",
+        "description": "Requirements gathering, product documentation, architecture, development, testing and deploy with best practices of the market and the product business needs."
+      },
+      "business_development": {
+        "title": "Business development",
+        "description": "Creation of business plans, development of strategies based on solid indicators such as KPIs, OKRs and whatever is necessary for the company's growth"
+      },
+      "innovation_research": {
+        "title": "Future research",
+        "description": "Our Innovation Research team explores emerging trends and technologies to fuel our company's future growth. By conducting in-depth studies and experiments, we stay ahead of the curve, ensuring our products remain innovative, competitive, and aligned with the latest industry advancements"
+      }
+    },
+    "Contact": {
+      "title": "Get in touch",
+      "description": "We are here to create your next project, integration, MVP or a new type of spaceship",
+      "name_input": "Your name",
+      "email_input": "Your email",
+      "company_input": "Company name",
+      "demand_input": "Your demand or project",
+      "message_input": "Your message...",
+      "send_button": "Send message now",
+      "loading": "loading..."
+    },
+    "Footer": {
+      "social": "social",
+      "initiatives": "initiatives",
+      "copyright": "All rights reserved.",
+      "science_support": "Science support"
+    },
+    "IndexPage": {
+      "description": "We plan, develop and delivery digital business around the world 🌎",
+      "title": "Lets create the future today?"
+    },
+    "LocaleLayout": {
+      "title": "Henrilab - Software house"
+    },
+    "LocaleSwitcher": {
+      "label": "Sprache ändern",
+      "locale": "{locale, select, pt {🇧🇷} en {🇺🇸} other {...}}"
+    },
+    "NotFoundPage": {
+      "description": "Please double-check the browser address bar or use the navigation to go to a known page.",
+      "title": "Page not found"
+    }
+  }
