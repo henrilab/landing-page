@@ -23,8 +23,8 @@ export function About() {
                         height={400}
                     />
                 </div>
-                <div className="font-light text-gray-500 sm:text-lg dark:text-gray-400">
-                    <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">{t('title')}</h2>
+                <div className="font-light sm:text-lg text-gray-400">
+                    <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-white">{t('title')}</h2>
                     <p className="mb-4">{t('description1')}</p>
                     <p>{t('description2')}</p>
                 </div>

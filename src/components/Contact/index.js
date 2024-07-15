@@ -1,11 +1,15 @@
 'use client'
 
 import React, { useState } from 'react'
-import { toast } from 'react-toastify';
-import { useTranslations } from 'next-intl';
+import { toast } from 'react-toastify'
+import { useTranslations } from 'next-intl'
+import { usePathname } from 'next/navigation'
 
 export function Contact() {
-    const t = useTranslations('Contact');
+    const t = useTranslations('Contact')
+    
+    let pathname = usePathname()
+    let currentURL = process.env.NEXT_PUBLIC_HOST_URL + pathname.substring(pathname.length - 3, pathname.length)
 
     const [name, setName] = useState('')
     const [email, setEmail] = useState('')
@@ -20,7 +24,7 @@ export function Contact() {
 
         setLoading(true)
 
-        let errorsObj = {};
+        let errorsObj = {}
         if(!name) errorsObj.name = 'Fill the name field'
         if(!email) errorsObj.email = 'Fill the email field'
         if(!company) errorsObj.company = 'Fill the company field'
@@ -32,7 +36,7 @@ export function Contact() {
             return false
         }
 
-        const url = `${process.env.NEXT_PUBLIC_HOST_URL}/api/contact`
+        const url = `${currentURL}/api/contact`
         const data = {
             name,
             email,
@@ -74,7 +78,7 @@ export function Contact() {
                             id="name"
                             defaultValue={name}
                             className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
-                            placeholder="Your name"
+                            placeholder={t('form.name')}
                             required
                             onChange={event => setName(event.target.value)}
                         />
@@ -87,7 +91,7 @@ export function Contact() {
                             id="email"
                             defaultValue={email}
                             className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
-                            placeholder="Your email"
+                            placeholder={t('form.email')}
                             required
                             onChange={event => setEmail(event.target.value)}
                         />
@@ -100,7 +104,7 @@ export function Contact() {
                             id="company"
                             defaultValue={company}
                             className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
-                            placeholder="Company name"
+                            placeholder={t('form.companyName')}
                             required
                             onChange={event => setCompany(event.target.value)}
                         />
@@ -113,7 +117,7 @@ export function Contact() {
                             id="demand"
                             defaultValue={demand}
                             className="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
-                            placeholder="Your demand or project"
+                            placeholder={t('form.demand')}
                             required
                             onChange={event => setDemand(event.target.value)}
                         />
@@ -125,7 +129,7 @@ export function Contact() {
                             rows="6"
                             defaultValue={message}
                             className="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
-                            placeholder="Your message..."
+                            placeholder={t('form.message')}
                             onChange={event => setMessage(event.target.value)}
                         />
                     </div>

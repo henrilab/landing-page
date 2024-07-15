@@ -48,7 +48,14 @@
       "demand_input": "Your demand or project",
       "message_input": "Your message...",
       "send_button": "Send message now",
-      "loading": "loading..."
+      "loading": "loading...",
+      "form": {
+        "name": "Your name",
+        "email": "Your email",
+        "companyName": "Company name",
+        "demand": "Your demand or project",
+        "message": "Your message..."
+      }
     },
     "Footer": {
       "social": "social",

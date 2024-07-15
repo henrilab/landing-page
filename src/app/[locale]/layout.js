@@ -7,7 +7,6 @@ import {
   unstable_setRequestLocale
 } from 'next-intl/server';
 // import {ReactNode} from 'react';
-import Navigation from '../../components/Navigation';
 import {locales} from '../../config';
 import { Header } from '@/components/Header';
 

@@ -48,7 +48,14 @@
     "demand_input": "Sua demanda ou projeto",
     "message_input": "Sua mensagem...",
     "send_button": "Enviar mensagem agora",
-    "loading": "carregando..."
+    "loading": "carregando...",
+    "form": {
+      "name": "Seu nome",
+      "email": "Seu email",
+      "companyName": "Nome da empresa",
+      "demand": "Sua demanda ou projeto",
+      "message": "Sua mensagem..."
+    }
   },
   "Footer": {
     "social": "social",
@@ -56,19 +63,19 @@
     "copyright": "Todos os direitos reservados.",
     "science_support": "Apoio à ciência"
   },
-    "IndexPage": {
-      "description": "A henrilab atua como seu parceiro em tecnologia, criando, planejando e executando projetos utilizando o melhor da engenharia de software e ciência hoje em dia",
-      "title": "Vamos criar o futuro juntos?"
-    },
-    "LocaleLayout": {
-      "title": "Henrilab - Fábrica de software"
-    },
-    "LocaleSwitcher": {
-      "label": "Sprache ändern",
-      "locale": "{locale, select, pt {🇧🇷} en {🇺🇸} other {...}}"
-    },
-    "NotFoundPage": {
-      "description": "Bitte überprüfe die Addressleiste deines Browsers oder verwende die Navigation um zu einer bekannten Seite zu wechseln.",
-      "title": "Seite nicht gefunden"
-    }
+  "IndexPage": {
+    "description": "A henrilab atua como seu parceiro em tecnologia, criando, planejando e executando projetos utilizando o melhor da engenharia de software e ciência hoje em dia",
+    "title": "Vamos criar o futuro juntos?"
+  },
+  "LocaleLayout": {
+    "title": "Henrilab - Fábrica de software"
+  },
+  "LocaleSwitcher": {
+    "label": "Sprache ändern",
+    "locale": "{locale, select, pt {🇧🇷} en {🇺🇸} other {...}}"
+  },
+  "NotFoundPage": {
+    "description": "Bitte überprüfe die Addressleiste deines Browsers oder verwende die Navigation um zu einer bekannten Seite zu wechseln.",
+    "title": "Seite nicht gefunden"
+  }
   }

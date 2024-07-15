@@ -1,8 +1,11 @@
 import Image from "next/image";
 import Link from "next/link";
 import LocaleSwitcher from "../LocaleSwitcher";
+import {useTranslations} from 'next-intl';
 
 export function Header() {
+    const t = useTranslations('Navigation');
+
     return (
         <header>
             <nav className="border-gray-200 px-4 lg:px-6 mt-3">
@@ -19,7 +22,7 @@ export function Header() {
                     </Link>
                     <div className="flex items-center lg:order-2">
                         <LocaleSwitcher />
-                        <a href="#contact" className="border border-pink-500 rounded font-bold text-sm px-4 lg:px-5 py-2 mr-2 underline text-pink-500">Lets talk</a>
+                        <a href="#contact" className="border border-pink-500 rounded font-bold text-sm px-4 lg:px-5 py-2 mr-2 underline text-pink-500">{t('lets_talk')}</a>
                     </div>
                 </div>
             </nav>
